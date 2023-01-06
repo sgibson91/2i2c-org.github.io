@@ -6,8 +6,10 @@ Our initial attempt at this had a number of inefficiencies, and we recently comp
 &lt;p>This post is a short description of what we did and the benefit that it had.
 It covers the technical details and provides links to more information about our deployment setup.
 We hope that it helps other organizations make similar improvements to their own infrastructure.&lt;/p>
-&lt;h2 id="our-problem">Our problem&lt;/h2>
-&lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
+&lt;h2 id="our-problem">
+Our problem
+&lt;a class="header-anchor" href="#our-problem">#&lt;/a>
+&lt;/h2>&lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
 We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to
 &lt;a href="https://2i2c.org/right-to-replicate">be able to replicate their infrastructure on their own&lt;/a>
 .&lt;/p>
@@ -22,18 +24,24 @@ that allowed us to test changes on a &lt;strong>staging hub&lt;/strong> before r
 &lt;li>We used a single configuration file for all hubs within a cluster, which led to confusion and difficulty in identifying a hub-specific configuration.&lt;/li>
 &lt;li>Moreover, any change to a hub within a cluster caused a re-deploy of &lt;em>all hubs on that cluster&lt;/em>. This is because we did not know whether a given change touched cluster-wide configuration or hub-specific configuration.&lt;/li>
 &lt;/ul>
-&lt;h2 id="our-goal">Our goal&lt;/h2>
-&lt;p>So, we spent several weeks discussing a plan to resolve these major problems - here were our goals:&lt;/p>
+&lt;h2 id="our-goal">
+Our goal
+&lt;a class="header-anchor" href="#our-goal">#&lt;/a>
+&lt;/h2>&lt;p>So, we spent several weeks discussing a plan to resolve these major problems - here were our goals:&lt;/p>
 &lt;ul>
 &lt;li>We should be able to &lt;strong>upgrade a specific hub&lt;/strong> alone, by inspecting which configuration files have been added or modified.&lt;/li>
 &lt;li>&lt;strong>Production hubs should be upgraded in parallel&lt;/strong> when they are effectively run independently.&lt;/li>
 &lt;li>We should &lt;strong>use staging hubs as &amp;ldquo;canary&amp;rdquo; deployments&lt;/strong> and not continue upgrading production hubs if the staging hub fails.&lt;/li>
 &lt;/ul>
-&lt;h2 id="an-overview-of-our-changes">An overview of our changes&lt;/h2>
-&lt;p>To accomplish this, we needed to identify which hub required an upgrade based on file additions/modifications.
+&lt;h2 id="an-overview-of-our-changes">
+An overview of our changes
+&lt;a class="header-anchor" href="#an-overview-of-our-changes">#&lt;/a>
+&lt;/h2>&lt;p>To accomplish this, we needed to identify which hub required an upgrade based on file additions/modifications.
 This took a lot of discussion and iteration on design, and so we share it below in the hopes that it is helpful to others!&lt;/p>
-&lt;h3 id="improvements-to-our-code-and-structure">Improvements to our code and structure&lt;/h3>
-&lt;p>We made a few major changes to
+&lt;h3 id="improvements-to-our-code-and-structure">
+Improvements to our code and structure
+&lt;a class="header-anchor" href="#improvements-to-our-code-and-structure">#&lt;/a>
+&lt;/h3>&lt;p>We made a few major changes to
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">the infrastructure repository&lt;/a>
 to facilitate the deployment logic described above.
 Here are the major changes we implemented:&lt;/p>
@@ -57,8 +65,10 @@ to do the following things:
 &lt;/li>
 &lt;/ul>
 &lt;p>In addition to these structural and code changes, we also developed new GitHub Actions workflows that control the entire process.&lt;/p>
-&lt;h3 id="a-github-actions-workflow-for-upgrading-our-jupyterhubs">A GitHub Actions workflow for upgrading our JupyterHubs&lt;/h3>
-&lt;p>We defined a new GitHub Actions workflow that carries out the logic described above.
+&lt;h3 id="a-github-actions-workflow-for-upgrading-our-jupyterhubs">
+A GitHub Actions workflow for upgrading our JupyterHubs
+&lt;a class="header-anchor" href="#a-github-actions-workflow-for-upgrading-our-jupyterhubs">#&lt;/a>
+&lt;/h3>&lt;p>We defined a new GitHub Actions workflow that carries out the logic described above.
 These are all defined in
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/.github/workflows/deploy-hubs.yaml" target="_blank" rel="noopener">this &lt;code>deploy-hubs.yaml&lt;/code> configuration file&lt;/a>
 .
@@ -86,10 +96,10 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail." srcset="
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp 400w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_4ce081208c29fc5bbeb51ae7adb06942.webp 760w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp"
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_d9a4e6bc16b2e2b445261d73e9c301b7.webp 400w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_0df0ec91484c3abf7475d91ac41c3f2b.webp 760w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_d9a4e6bc16b2e2b445261d73e9c301b7.webp"
 width="760"
 height="529"
 loading="lazy" data-zoomable />&lt;/div>
@@ -115,10 +125,10 @@ Our staging and support hub job matrix tells GitHub Actions to deploy staging an
 &lt;figure id="figure-our-production-hub-job-matrix-tells-github-actions-which-hubs-to-update-with-new-changes-these-are-triggered-if-a-clusters-stagingsupport-job-does-not-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster&amp;#39;s staging/support job does not fail." srcset="
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp 400w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_6b179a8ac184f3c929d01d08a8eb56af.webp 760w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp"
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_06aae9508934f7b72fad6d052d255cd1.webp 400w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_2a7d08ae1d0384ffdb745227486bb327.webp 760w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_06aae9508934f7b72fad6d052d255cd1.webp"
 width="760"
 height="515"
 loading="lazy" data-zoomable />&lt;/div>
@@ -135,8 +145,10 @@ Our production hub job matrix tells GitHub Actions which hubs to update with new
 &lt;/ul>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="concluding-remarks">Concluding Remarks&lt;/h2>
-&lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
+&lt;h2 id="concluding-remarks">
+Concluding Remarks
+&lt;a class="header-anchor" href="#concluding-remarks">#&lt;/a>
+&lt;/h2>&lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
 It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s
 &lt;a href="https://2i2c.org/right-to-replicate">Right to Replicate&lt;/a>
 their infrastructure.
