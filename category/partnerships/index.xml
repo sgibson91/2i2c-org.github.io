@@ -45,7 +45,7 @@ vulnerability was reported and fixed, and a
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener">migration guide&lt;/a>
 containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
 &lt;p>Read more about how CILogon is setup for use at 2i2c from
-&lt;a href="https://infrastructure.2i2c.org/en/latest/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener">the docs&lt;/a>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener">the docs&lt;/a>
 .&lt;/p>
 &lt;h2 id="celebration">
 Celebration
@@ -109,7 +109,7 @@ Where to follow along
 . We’ll send updates as we work out longer-term spaces for communication or documentation.&lt;/p>
 &lt;div class="about-us">
 &lt;blockquote>
-&lt;p>💡
+&lt;p>💡 Follow our work!
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
 &lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
