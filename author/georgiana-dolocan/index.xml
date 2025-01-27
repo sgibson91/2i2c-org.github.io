@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Georgiana Dolocan | 2i2c</title><link>https://2i2c.org/author/georgiana-dolocan/</link><atom:link href="https://2i2c.org/author/georgiana-dolocan/index.xml" rel="self" type="application/rss+xml"/><description>Georgiana Dolocan</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/georgiana-dolocan/avatar_hu5a78bf28ffb183ff0de0c23a9805fa26_292451_270x270_fill_q75_lanczos_center.jpg</url><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link></image><item><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/georgiana-dolocan/</guid><description>&lt;p>Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.&lt;/p></description></item><item><title>On the Jupyter Blog: From intern to mentor.</title><link>https://2i2c.org/blog/2023/external-jupyter-georgiana-mentor/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/external-jupyter-georgiana-mentor/</guid><description/></item><item><title>CILogon usage at 2i2c</title><link>https://2i2c.org/blog/2023/cilogon-integration/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/cilogon-integration/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Georgiana Dolocan | 2i2c</title><link>https://2i2c.org/author/georgiana-dolocan/</link><atom:link href="https://2i2c.org/author/georgiana-dolocan/index.xml" rel="self" type="application/rss+xml"/><description>Georgiana Dolocan</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/georgiana-dolocan/avatar_hu5a78bf28ffb183ff0de0c23a9805fa26_292451_270x270_fill_q75_lanczos_center.jpg</url><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link></image><item><title>2i2c hubs now run JupyterHub 5.0</title><link>https://2i2c.org/blog/2025/jupyterhub5-upgrade/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub5-upgrade/</guid><description>&lt;p>We are excited to announce that all 2i2c hubs now run JupyterHub 5.0!&lt;/p>
+&lt;p>This is an upgrade that brings some exciting new features and improvements. Some of the highlights include:&lt;/p>
+&lt;ol>
+&lt;li>The possibility to enable
+&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/tutorial/sharing.html" target="_blank" rel="noopener" >user-initiated server sharing&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/authenticators.html#authenticator-managed-roles" target="_blank" rel="noopener" >Authenticator-managed roles&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Also, JupyterHub 5 will enable us to offer per-group shared directories in the future!
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>.&lt;/p>
+&lt;p>Checkout the
+&lt;a href="https://jupyterhub.readthedocs.io/en/latest/howto/upgrading-v5.html" target="_blank" rel="noopener" >JupyterHub 5.0 migration&lt;/a> docs or the
+&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/georgiana-dolocan/</guid><description>&lt;p>Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.&lt;/p></description></item><item><title>On the Jupyter Blog: From intern to mentor.</title><link>https://2i2c.org/blog/2023/external-jupyter-georgiana-mentor/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/external-jupyter-georgiana-mentor/</guid><description/></item><item><title>CILogon usage at 2i2c</title><link>https://2i2c.org/blog/2023/cilogon-integration/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/cilogon-integration/</guid><description>
 &lt;h2 id="about-cilogon">
 About CILogon
 &lt;a class="header-anchor" href="#about-cilogon">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://www.cilogon.org" target="_blank" rel="noopener" >CILogon&lt;/a>
-is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of
-&lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener" >InCommon&lt;/a>
-, a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
+&lt;a href="https://www.cilogon.org" target="_blank" rel="noopener" >CILogon&lt;/a> is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of
+&lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener" >InCommon&lt;/a>, a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
 &lt;h2 id="cilogon-and-2i2c">
 CILogon and 2i2c
 &lt;a class="header-anchor" href="#cilogon-and-2i2c">#&lt;/a>
@@ -22,42 +32,29 @@ The setup
 The CILogon administrative client
 &lt;a class="header-anchor" href="#the-cilogon-administrative-client">#&lt;/a>
 &lt;/h3>&lt;p>The
-&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >2i2c administrative client&lt;/a>
-provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
+&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >2i2c administrative client&lt;/a> provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
 &lt;p>For each hub that uses CILogon, we dynamically create an OAuth
-&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >client application&lt;/a>
-in CILogon and store the credentials safely, using the script at
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener" >cilogon_app.py&lt;/a>
-. The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
+&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >client application&lt;/a> in CILogon and store the credentials safely, using the script at
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener" >cilogon_app.py&lt;/a>. The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
 &lt;h3 id="the-jupyterhub-cilogonoauthenticator">
 The JupyterHub CILogonOAuthenticator
 &lt;a class="header-anchor" href="#the-jupyterhub-cilogonoauthenticator">#&lt;/a>
 &lt;/h3>&lt;p>For CILogon&amp;rsquo;s integration with JupyterHub&amp;rsquo;s authentication workflow, we&amp;rsquo;re using the
-&lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener" >&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>
-, which is part of the
-&lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >JupyterHub OAuthenticator project&lt;/a>
-. This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener" >&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>, which is part of the
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >JupyterHub OAuthenticator project&lt;/a>. This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
 &lt;p>As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the
-&lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code>&lt;/a>
-were identified and performed. For example, the
-&lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener" >GHSA-r7v4-jwx9-wx43&lt;/a>
-vulnerability was reported and fixed, and a
-&lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener" >migration guide&lt;/a>
-containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code>&lt;/a> were identified and performed. For example, the
+&lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener" >GHSA-r7v4-jwx9-wx43&lt;/a> vulnerability was reported and fixed, and a
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener" >migration guide&lt;/a> containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
 &lt;p>Read more about how CILogon is setup for use at 2i2c from
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener" >the docs&lt;/a>
-.&lt;/p>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener" >the docs&lt;/a>.&lt;/p>
 &lt;h2 id="celebration">
 Celebration
 &lt;a class="header-anchor" href="#celebration">#&lt;/a>
 &lt;/h2>&lt;p>Thanks to the 2i2c - CILogon partnership, during this past year we were able to integrate CILogon into 2i2c&amp;rsquo;s infrastructure and to observe its importance, usefulness and great support for 2i2c and the communities we server.&lt;/p>
 &lt;p>We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!&lt;/p>
 &lt;p>&lt;strong>Acknowledgements&lt;/strong>: The upstream
-&lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a>
-project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
-&lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener" >JupyterHub community&lt;/a>
-and the 2i2c integration described was developed by
-&lt;a href="https://2i2c.org/organization/" >the 2i2c engineering team&lt;/a>
-. Also, this post was edited by
-&lt;a href="https://jbasney.net/" target="_blank" rel="noopener" >Jim Basney&lt;/a>
-.&lt;/p></description></item></channel></rss>
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a> project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
+&lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener" >JupyterHub community&lt;/a> and the 2i2c integration described was developed by
+&lt;a href="https://2i2c.org/organization/" >the 2i2c engineering team&lt;/a>. Also, this post was edited by
+&lt;a href="https://jbasney.net/" target="_blank" rel="noopener" >Jim Basney&lt;/a>.&lt;/p></description></item></channel></rss>
